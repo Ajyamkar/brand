@@ -1,0 +1,66 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+  text-align: center;
+font-size: 2rem;
+margin: 0 0 0 0;
+}
+
+
+.img-logo{
+  margin: 17px;
+    width: 5rem;
+}
+
+.img-hero{
+  width: 106%;
+  margin: 0 -10px ;
+}
+.h1s{
+  margin: 4rem 1rem 1rem 0.5rem;
+}
+.h1-1{
+  color:  hsl(0, 36%, 70%);
+  font-weight: 100;
+}
+.para{
+  text-align: center;
+  color:  hsl(0, 36%, 70%);
+width: 18rem;
+font-size: 86%;
+line-height: 20px;
+margin: 0 3%;
+}
+.form{
+  margin: 0 11%;
+}
+.input1{
+  width: 15rem;
+    height: 30px;
+    border-color: pink;
+    border-radius: 25px;
+}
+.submit{
+
+  background-color:  hsl(0, 93%, 68%);
+  position: relative;
+bottom: 35px;
+width: 4.5rem;
+border-radius: 18px;
+height: 34px;
+left: 11rem;
+}
+.img-arrow{
+  position: relative;
+bottom: 43px;
+left: 8.1rem;
+}
+.answer{
+  color: hsl(0, 93%, 68%);
+}
+@media screen and (min-width:321px) and (max-width:380px) {
+  .para{
+    margin: 0 11%;
+  }
+}
