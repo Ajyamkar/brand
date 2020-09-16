@@ -2,6 +2,7 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 }
 h1{
+  color: "gray";
   text-align: center;
 font-size: 2rem;
 margin: 0 0 0 0;
@@ -48,13 +49,13 @@ margin: 0 3%;
 bottom: 35px;
 width: 4.5rem;
 border-radius: 18px;
-height: 34px;
+height: 28px;
 left: 11rem;
 }
 .img-arrow{
   position: relative;
-bottom: 43px;
-left: 8.1rem;
+bottom: 30px;
+left: 8rem;
 }
 .answer{
   color: hsl(0, 93%, 68%);
@@ -62,5 +63,67 @@ left: 8.1rem;
 @media screen and (min-width:321px) and (max-width:380px) {
   .para{
     margin: 0 11%;
+  }
+}
+@media screen and (min-width:430px) {
+  body{
+    background-image: url("C:/Users/Lenovo/Desktop/Web Development/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg");
+  }
+  h1{
+      color: "gray";
+      text-align: left;
+      font-size: 4rem;
+      margin: 0 0 0 0;
+      padding-left: 18rem;
+  }
+  .img-logo{
+    width: 10rem;
+    top: 78px;
+    position: relative;
+    left: 137px;
+  }
+  .img-hero{
+      content: url("images/hero-desktop.jpg");
+      float: right;
+    width: 44rem;
+    height: 50rem;
+
+    position: relative;
+    bottom: 5rem;
+  }
+  .h1s{
+    position: relative;
+    right: 9rem;
+    margin-top: 9rem;
+    /* top: 1rem; */
+    text-align: left;
+  }
+  .h1-1{
+    text-align: left;
+    font-size: 4rem;
+    padding-left: 18rem;
+  }
+  .para{
+    text-align: left;
+    padding-left: 7rem;
+    padding-top: 0.5rem;
+    width: 23rem;
+  }
+  .form{
+    margin-left: 9.8rem;
+  }
+  .submit{
+    position: relative;
+    left: -5rem;
+    bottom: 0px;
+  }
+  .img-arrow{
+    position: relative;
+    left: -130px;
+    bottom: -7px;
+  }
+  #answer{
+    position: relative;
+    top: 0rem;
   }
 }
