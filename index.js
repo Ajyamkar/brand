@@ -1,7 +1,7 @@
 function validation(){
   var x,text;
    x=document.querySelector(".input1").value;
-  if(x.search('@'+"")==-1){
+  if(x.search('@'+"")==-1 || x.search('\\.'+"")==-1){
     text="Please provide a valid email";
     var answer=document.getElementById("answer");
     answer.innerHTML = text;
