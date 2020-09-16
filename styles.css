@@ -67,7 +67,7 @@ left: 8rem;
 }
 @media screen and (min-width:430px) {
   body{
-    background-image: url("C:/Users/Lenovo/Desktop/Web Development/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg");
+    background-image: url("https://ajyamkar.github.io/images/bg-pattern-desktop.svg");
   }
   h1{
       color: "gray";
